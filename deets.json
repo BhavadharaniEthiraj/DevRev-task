@@ -1,0 +1,57 @@
+[
+ {
+  "name": "bhavi",
+  "age": 21,
+  "degree": "b.tech"
+ },
+ {
+  "name": "vidu",
+  "age": 22,
+  "degree": "b.tech"
+ },
+ {
+  "name": "rohi",
+  "age": 23,
+  "degree": "b.tech"
+ },
+ {
+  "name": "dhara",
+  "age": 21,
+  "degree": "m.tech"
+ },
+ {
+  "name": "sound",
+  "age": 21,
+  "degree": "m.tech"
+ },
+ {
+  "name": "shali",
+  "age": 21,
+  "degree": "mba"
+ },
+ {
+  "name": "rani",
+  "age": 21,
+  "degree": "mba"
+ },
+ {
+  "name": "fathu",
+  "age": 22,
+  "degree": "mba"
+ },
+ {
+  "name": "hari",
+  "age": 22,
+  "degree": "bba"
+ },
+ {
+  "name": "ayshu",
+  "age": 23,
+  "degree": "bba"
+ },
+ {
+  "name": "ashifa",
+  "age": 20,
+  "degree": "bba"
+ }
+]
