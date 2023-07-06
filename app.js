@@ -5,7 +5,7 @@ const app = express();
 const fs = require('fs');
 
 // Serve static files (index.html)
-// app.use(express.static('public'));
+app.use(express.static('public'));
 app.set('view engine', 'ejs');
 // const data_path=__dirname+"/data.json";
 const signindata = fs.readFileSync('data.json', 'utf8');
@@ -32,15 +32,11 @@ app.use(bodyParser.json());
 
 
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/login.html");
+    res.sendFile(__dirname + "/index.html");
 
 
 });
-app.get("/demo", function (req, res) {
-    res.sendFile(__dirname + "/login.html");
 
-
-});
 
 app.get('/nextpage', (req, res) => {
     res.sendFile(__dirname + '/signin.html');
